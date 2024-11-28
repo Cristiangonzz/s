@@ -10,5 +10,6 @@ RUN npm install && npm run build
 RUN npm install -g http-server
 
 EXPOSE 4200
+# EXPOSE 4200
 
 CMD ["http-server", "dist", "-p", "4200"]
